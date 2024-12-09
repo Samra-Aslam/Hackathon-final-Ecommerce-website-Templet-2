@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#image0{
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    background-image: url(../app/images/chairimg.jpg);
+}
+#image1{
+    background-position: center;
+    background-size: cover;
+    background-image: url(../app/images/chairimg.jpg);
+}
+#image2{
+    background-position: center;
+    background-size: cover;
+    background-image: url(../app/images/3botles.jpg);
+}#image3{
+    background-position: center;
+    background-size: cover;
+    background-image: url(../app/images/1bottle.jpg);
+}#image4{
+    background-position: center;
+    background-size: cover;
+    background-image: url(../app/images/lamp.jpg);
+}
+#image5{
+    background-position: center;
+    background-size: cover;
+    background-image: url(../app/images/sofa.jpg);
+}#image6{
+    background-position: center;
+    background-size: cover;
+    background-image: url(../app/images/blackchair.jpg);
+}#image7{
+    background-position: center;
+    background-size: cover;
+    background-image: url(../app/images/whitesofa.jpg);
+}#image8{
+    background-position: center;
+    background-size: cover;
+    background-image: url(../app/images/yellowsofa.jpg);
+}#image9{
+    background-position: center;
+    background-size: cover;
+    background-image: url(../app/images/offwhiteimage.jpg);
+}
+#image10{
+    background-position: center;
+    background-size: cover;
+    background-image: url(../app/images/5lamps.jpg);
+}#image11{
+    background-position: center;
+    background-size: cover;
+    background-image: url(../app/images/whitepot.jpg);
+}
+#image12{
+    background-position: center;
+    background-size: cover;
+    background-image: url(../app/images/yellotable.jpg);
+}#image13{
+    background-position: center;
+    background-size: cover;
+    background-image: url(../app/images/twpchairs.jpg);
+}#image14{
+    background-position: center;
+    background-size: cover;
+    background-image: url(../app/images/banner.jpg);
+}
+
+#colum2{
+    display: flex;
+}
+
+
+
+@media(max-width:1024px){
+    #colum2{
+        display:block;
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+}
